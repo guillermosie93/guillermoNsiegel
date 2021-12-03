@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+ul {
+  list-style: none; }
+
+.header__div--txt {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding-top: 20px; }
+
+#article__phrases {
+  text-align: center; }
+
+#buttonsMain {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: flex-start; }
+
+.bttn {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+  padding: 5px;
+  align-self: flex-end; }
+
+#main__div--bkImg {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  height: 290px;
+  width: 100%; }
+
+#body__article {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 15px; }
+  #body__article h2 {
+    align-self: center; }
+
+.article__div--style {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+  margin-top: 10px;
+  text-align: center; }
+
+.article__divSkill--style {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 15px; }
+
+#article__contact form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center; }
+  #article__contact form textarea {
+    font-weight: 900; }
+  #article__contact form button {
+    font-weight: 900; }
+
+#btnComment {
+  margin-left: 60px; }
+
+#porcen {
+  position: relative;
+  top: 380px;
+  margin-left: 45px; }
+
+.div__load {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  transition: .2s; }
+
+#progress {
+  display: none; }
+
+header {
+  height: 180px;
+  width: 100%; }
+
+.header__div--txt span {
+  font-size: 3rem;
+  font-weight: 900; }
+
+#article__phrases h2 {
+  font-size: 5.2rem; }
+
+.bttn {
+  font-weight: 900;
+  width: fit-content;
+  height: 50px; }
+
+.main__div__slice--style h3 {
+  font-weight: 900; }
+
+.main__div__slice--style li {
+  font-weight: 600; }
+
+.article__divSkill--style span {
+  font-weight: 900;
+  margin: 5px; }
+
+.imgSkill__style {
+  height: 50px;
+  width: 33%;
+  align-self: center;
+  margin: 5px; }
+
+footer {
+  height: 150px;
+  width: 100%; }
+
+#divLoadLeft1 {
+  background-color: #404040;
+  left: 15px; }
+
+#divLoadLeft2 {
+  background-color: #535353;
+  left: 30px; }
+
+#divLoadLeft3 {
+  background-color: #666666;
+  left: 45px; }
+
+#divLoadLeft4 {
+  background-color: #797979;
+  left: 60px; }
+
+#divLoadLeft5 {
+  background-color: #8c8c8c;
+  left: 75px; }
+
+#divLoadLeft6 {
+  background-color: #9f9f9f;
+  left: 90px; }
+
+#divLoadLeft7 {
+  background-color: #b2b2b2;
+  left: 105px; }
+
+#divLoadLeft8 {
+  background-color: #c5c5c5;
+  left: 120px; }
+
+#divLoadLeft9 {
+  background-color: #d8d8d8;
+  left: 135px; }
+
+#divLoadRight1 {
+  background-color: #1b1b1b;
+  top: 200px;
+  right: 15px; }
+
+#divLoadRight2 {
+  background-color: #363636;
+  top: 200px;
+  right: 30px; }
+
+#divLoadRight3 {
+  background-color: #515151;
+  top: 200px;
+  right: 45px; }
+
+#divLoadRight4 {
+  background-color: #6c6c6c;
+  top: 200px;
+  right: 60px; }
+
+#divLoadRight5 {
+  background-color: #878787;
+  top: 200px;
+  right: 75px; }
+
+#divLoadRight6 {
+  background-color: #a2a2a2;
+  top: 200px;
+  right: 90px; }
+
+#divLoadRight7 {
+  background-color: #bdbdbd;
+  top: 200px;
+  right: 105px; }
+
+#divLoadRight8 {
+  background-color: #d8d8d8;
+  top: 200px;
+  right: 120px; }
+
+#divLoadRight9 {
+  background-color: #f3f3f3;
+  top: 200px;
+  right: 135px; }
+
+.btn--ligth {
+  color: #000000;
+  background-color: #ffffff62; }
+
+.btn--dark {
+  color: #fffdfd;
+  background-color: #000000; }
+
+i, h4 {
+  color: #000000; }
+
+header {
+  background-image: url(../media/images/header.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.header__div--txt span {
+  color: #fffdfd;
+  text-shadow: 2px 2px 5px #fdfdfd; }
+
+#main__div--bkImg {
+  background-image: url(../media/images/knowMe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.main__div--style {
+  background-color: rgba(3, 3, 3, 0.055); }
+  .main__div--style h3 {
+    font-weight: 900;
+    background-color: rgba(6, 6, 6, 0.055); }
+  .main__div--style ul li {
+    color: #000000;
+    font-weight: 600; }
+
+footer {
+  background-color: #000000; }
+
+#porcen--txt {
+  font-size: 5rem;
+  font-weight: 900; }
+
+.div__load--right, .div__load--left {
+  animation-name: loading;
+  animation-duration: .100s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite; }
+
+@keyframes loading {
+  0% {
+    opacity: 100%; }
+  50% {
+    opacity: 50%; }
+  100% {
+    opacity: 0%; } }

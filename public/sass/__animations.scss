@@ -1,0 +1,20 @@
+.div__load--right, .div__load--left{
+    animation-name: loading;
+    animation-duration: .100s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes loading{
+0%{
+    opacity: 100%;
+};
+50%{
+    opacity: 50%;
+    
+};
+100%{
+    opacity: 0%;
+}
+}

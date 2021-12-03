@@ -1,0 +1,79 @@
+$bk-dark: #000000;
+$bk-dark-body: rgba(3, 3, 3, 0.055);
+$bk-light-body: #ffffff62;
+$font-color1: #fffdfd;
+$font-color2: $bk-dark;
+
+@for $i from 1 to 10 {
+    #divLoadLeft#{$i}{
+        background-color: #131313 * $i + 45;
+        left: 15px * $i;
+    }
+}
+@for $i from 1 to 10 {
+    #divLoadRight#{$i}{
+        background-color: #d8d8d8 * $i / 8;
+        top: 200px;
+        right: 15px * $i;
+    }
+}
+
+.btn--ligth{
+    color: $font-color2;
+    background-color: $bk-light-body;
+}
+.btn--dark{
+    color: $font-color1;
+    background-color: $bk-dark;
+}
+
+i, h4{
+    color: $font-color2;
+}
+
+header{
+    background-image: url(../media/images/header.jpg);
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.header__div--txt{
+    span{
+        color: $font-color1;
+        text-shadow: 2px 2px 5px rgb(253, 253, 253);
+    }
+}
+
+
+#main__div--bkImg{
+    background-image: url(../media/images/knowMe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main__div--style{
+    background-color: $bk-dark-body;
+    h3{
+        font-weight: 900;
+        background-color: $bk-dark-body * 2;
+    }
+    ul li{
+        color: $font-color2;
+        font-weight: 600;
+    }
+}
+
+footer{
+    background-color: $bk-dark;
+}
+
+#porcen--txt{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+
+
+

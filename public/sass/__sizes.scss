@@ -1,0 +1,52 @@
+header{//bk del header
+    height: 180px;
+    width: 100%;
+}
+
+.header__div--txt{//Guillermo N. Siegel
+    span{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+}
+
+#article__phrases{//Dream big, work hard
+    h2{
+        font-size: 5.2rem;
+    }
+}
+
+
+.bttn{//botones que muestra ala info
+    font-weight: 900;
+    width: fit-content;
+    height: 50px;
+}
+
+.main__div__slice--style{//titulo de la info y 
+    h3{
+        font-weight: 900;
+    }
+    li{
+        font-weight: 600;
+    }
+}
+
+.article__divSkill--style{
+    span{ //span de los skil
+        font-weight: 900;
+        margin: 5px;
+    }
+}
+
+.imgSkill__style{
+    height: 50px;
+    width: 33%;
+    align-self: center;
+    margin: 5px;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+}

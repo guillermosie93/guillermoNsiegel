@@ -1,0 +1,42 @@
+[
+    {
+        "id": "js_icon",
+        "icon": "../media/icons/js_icon.png",
+        "txt":"Javascript"
+    },
+    {
+        "id": "html_icon",
+        "icon": "../media/icons/html_icon.png",
+        "txt":"HTML"
+    },
+    {
+        "id": "css_icon",
+        "icon": "../media/icons/css_icon.png",
+        "txt":"CSS"
+    },
+    {
+        "id": "react_icon",
+        "icon": "../media/icons/react_icon.png",
+        "txt":"React Js"
+    },
+    {
+        "id": "git_icon",
+        "icon": "../media/icons/git_icon.png",
+        "txt":"GIT / GIThub"
+    },
+    {
+        "id": "bootstrap_icon",
+        "icon": "../media/icons/bootstrap_icon.png",
+        "txt":"Bootstrap"
+    },
+    {
+        "id": "jquery_icon",
+        "icon": "../media/icons/jquery_icon.png",
+        "txt":"Jquery"
+    },
+    {
+        "id": "sass_icon",
+        "icon": "../media/icons/sass_icon.png",
+        "txt":"SASS"
+    }
+]

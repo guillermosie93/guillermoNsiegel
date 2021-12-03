@@ -1,0 +1,37 @@
+[
+    {
+       "id":"aboutMe--txt",
+       "titulo":"About Me",
+       "img": "../media/images/aboutMe.jpg",
+       "body": {
+          "item":{
+             "01": "I am 27 years old. I'm married. I am from Rosario, Santa Fe. I began to study programming as a form of personal and professional progress, but also as a response to a deep desire: to create. I wish that I seek to embody my other passions, photography and cooking, but in web development I find that desire satisfied by seeing each element come to life on the screen"
+            }
+         }
+      },
+      
+      {
+         "id":"pEducation--txt",
+         "titulo":"Personal Education",
+         "img": "../media/images/pEducation.jpg",
+         "body":{
+            "item":{
+               "01":"FrontEnd Developer (Mar 2021 - Sep 2021) in CoderHouse.",
+               "02":"BackEnd Developer (Nov 2021) in CoderHouse.",
+               "03":"Lifeguard (Apr 2015 - Dec 2015) in EPI-Rosario, Santa Fe.",
+               "04": "'one year of photgraphy by Jose Benito Ruiz' - course offline mode" 
+            }
+         }
+      },
+      {
+         "id":"wExperience--txt",
+         "titulo":"Work Experience",
+         "img": "../media/images/wExperience.jpg",
+         "body":{
+            "item":{
+               "01":"Personal of Security (Dec 2019 - Actuality) in Segar S.A. Rosario, Santa Fe.",
+               "02":"LifeGuard (Summer Seasons 2016-2017 and 2017-2018) in Camping´s of San Lorenzo. San Lorenzo, Santa Fe."
+            }
+         }
+      }
+ ]

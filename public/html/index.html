@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillermo N. Siegel</title>
+
+        <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+        <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!--CSS-->
+    <link rel="stylesheet" href="../css/stylesheet.css">
+        
+</head>
+<body>
+    <header> <!--encabezado de la page-->
+        <div class="header__div--txt">
+            <span>Guillermo N.</span>
+            <span>Siegel</span>
+        </div>
+    </header>
+
+    <br/>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <h4>Some of my jobs...</h4>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../media/images/image proyect/Sin nombre.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Deluxe Gimnastic´s page</h5>
+              <p>Pagina estatica creada con Html y Css</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../media/images/image proyect/newWorld.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>New Word´s Trip</h5>
+              <p>Un viaje inmersivo hacia la historia y la geografia de un nuevo mundo.</p>
+            </div>
+           </div>
+            <div class="carousel-item">
+                <img src="../media/images/image proyect/calculadora.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Calculator</h5>
+                    <p>Calculadora 100% funcional realizada con Javascript, Html y Css.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../media/images/image proyect/cronometro.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CronoCode</h5>
+                <p>Cronometro 100% funcional creado con Javascript, Html y Css</p>
+              </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <article>
+        <div id="article__phrases">
+            <h2>Dream Big, Work Hard</h2>
+        </div>
+    </article>
+
+    <main><!--main article info about me-->
+        <div id="main__div--bkImg"><!--img para las distintas infos-->
+            <div id="buttonsMain"><!--div con los butones para inicializar el slice-->
+                <button class="bttn btn--ligth btn--main" id="aboutMe">About me</button>
+                <button class="bttn btn--ligth btn--main" id="pEducation">Professional Education</button>
+                <button class="bttn btn--ligth btn--main" id="wExperience">Work Experience</button>
+            </div>
+        </div> 
+        <div id="main__div__slice" class="main__div--style"></div> <!--div de la info--> 
+        
+
+    </main>
+
+    <article id="body__article"><!--Article with skill-->
+        <h2>Skills</h2>
+        <div class="article__div--style" id="article__div--skill"></div>
+    </article>
+
+    <article id="article__contact"><!--Datos de contacto-->
+        <h4>Contact Me</h4>
+
+        <ul>
+            <li><i class="bi bi-telephone-fill"></i>Celular: +543416503951</li>
+            <li><i class="bi bi-envelope-fill"></i>Mail: guillermosie93@gmai.com</li>
+        </ul>
+        <!-- Button trigger modal -->
+        <button type="button" id="btnComment" class="btn--dark bttn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Leave me your comment
+        </button>
+  
+        <!-- Modal Comment-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Leave your comment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="mailto: guillermosie93@gmail.com" method="post" enctype="text/plain">
+                        <textarea name="comment" id="formTextArea" cols="40" rows="10" placeholder="Write your menssage..."></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                        <button class="bttn btn--ligth" id="btnFormSubmit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+
+        <h4>Redes Sociales</h4>
+            <div id="contact___socialRed">
+                <span><a href="https://www.linkedin.com/in/guillermo-siegel-5bb44a124/"><i class="bi bi-linkedin"></i></a></span>
+                <span><a href="https://github.com/guillermosie93"><i class="bi bi-github"></i></a></span>
+                <span><a href="https://www.instagram.com/guillermosie93/?hl=es-la"><i class="bi bi-instagram"></i></i></a></span>
+            </div>
+    </article>
+    <footer>
+
+    </footer>
+
+        <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!--my script-->
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
